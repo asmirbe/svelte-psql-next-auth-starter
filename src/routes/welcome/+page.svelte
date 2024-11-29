@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-    <title>Login | Dall-E Clone</title>
+    <title>Login</title>
     <meta name="robots" content="noindex nofollow" />
 </svelte:head>
 
