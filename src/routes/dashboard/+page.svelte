@@ -7,7 +7,7 @@
 	{#if data.session}
 		<h1 class="text-5xl">Dashboard</h1>
 		Welcome back,
-		<span class="text-4xl">{data.session.user?.name}!</span>
+		{JSON.stringify(data.session.user)}
 		<button on:click={() => signOut()}>Sign Out</button>
 	{/if}
 </div>
